@@ -1,0 +1,84 @@
+/* ----------------------------------------------------------
+    Student ID: 6288083
+    Student Name: Thanapron Khunprom
+    Section: 3
+ ------------------------------------------------------------ */
+/* Starts your CSS here */
+
+* {
+  font-family: sans-serif;
+}
+
+header,
+footer {
+  color: #f8f9f9;
+  background-color: #2e4053;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+footer p {
+  padding: 5px;
+}
+
+.navbar {
+  background-color: #5d6d7e;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+}
+
+.navbar a {
+  color: #fdfefe;
+
+  text-decoration: none;
+}
+
+.navbar li {
+  padding: 14px 20px;
+}
+
+.navbar li:hover {
+  background-color: #85929e;
+}
+
+article {
+  width: 80%;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*9*/
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+a.top {
+  text-align: center;
+  background-color: #d7dbdd;
+  display: inline-block;
+  width: 100%;
+}
+
+a.top:hover {
+  background-color: #48c9b0;
+}
