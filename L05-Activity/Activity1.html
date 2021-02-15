@@ -1,40 +1,41 @@
 <html>
-    <body>
-        <script type = "application/javascript">
-             /* ----- Your JS code is here ----- */
-            class Movie{
-                /* Constuctor */
-                constructor(_title, _year){
-                    /* Properties: title and year */
-                    
-                }
+  <body>
+    <script type="application/javascript">
+      /* ----- Your JS code is here ----- */
+      class Movie {
+        /* Constuctor */
+        constructor(_title, _year) {
+          /* Properties: title and year */
+          this.title = _title;
+          this.year = _year;
+        }
 
-                /* Method */
-                getTitle(){
-                    /* Format: "Title: [title]" */
-                    return "";
-                }
-                getReleasedYear(){
-                    /* Format: "Year: [year]" */ 
-                    return "";
-                }
-            }
-            
-            /* Create two objects of the Movie class 
+        /* Method */
+        getTitle() {
+          /* Format: "Title: [title]" */
+          return "Title: " + this.title;
+        }
+        getReleasedYear() {
+          /* Format: "Year: [year]" */
+          return "in Year: " + this.year;
+        }
+      }
+
+      /* Create two objects of the Movie class 
                Example:
                let movie1 = new Movie("Harry Potter and the Goblet of Fire", 2005)
             */
-            
+      let movie1 = new Movie("Harry Potter and the Goblet of Fire", 2005);
+      let movie2 = new Movie("Spider-Man: Far From Home released", 2019);
 
-            /* Call methods to display the following format in the console 
+      /* Call methods to display the following format in the console 
                Title: [title] released in Year: [year]
                Example: 
                Title: Harry Potter and the Goblet of Fire released in Year: 2005
             */
-
-
-
-            /* ==========  Activity 1 ends here  ========== */
-        </script>
-    </body>
+      console.log(movie1.getTitle() + " " + movie1.getReleasedYear());
+      console.log(movie2.getTitle() + " " + movie2.getReleasedYear());
+      /* ==========  Activity 1 ends here  ========== */
+    </script>
+  </body>
 </html>
